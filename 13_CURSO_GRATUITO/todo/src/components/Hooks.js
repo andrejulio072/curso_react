@@ -8,12 +8,16 @@ const Hooks = () => {
     idade = 31;
     console.log(idade);
   };
+
+  const changeNewAge = () => {
+    setNovaidade(45);
+  };
   return (
     <div>
       <p> Idade: {idade}</p>
       <button onClick={changeAge}> Mudar idade</button>
     </div>
-  ); 
+  );
 };
 
 export default Hooks;
