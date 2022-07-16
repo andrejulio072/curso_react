@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { useState } from "react";
 
 const Hooks = () => {
@@ -12,6 +12,7 @@ const Hooks = () => {
   const changeNewAge = () => {
     setNovaidade(45);
   };
+  
   return (
     <div>
       <p> Idade: {idade}</p>
