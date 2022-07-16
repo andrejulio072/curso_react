@@ -1,6 +1,8 @@
 import "./App.css";
 import { useEffect, useState } from "react";
 import { BsTrash, BsBookmarkCheck, BsBookmarkCheckFill } from "react-icons/bs";
+import FirstComponent from "./components/FirstComponent";
+import Hooks from "./components/Hooks";
 
 const API = "http://localhost:5000";
 
@@ -82,6 +84,8 @@ function App() {
 
   return (
     <div className="App">
+      <FirstComponent />
+      <Hooks />
       <div className="todo-header">
         <h1>React Todo</h1>
       </div>

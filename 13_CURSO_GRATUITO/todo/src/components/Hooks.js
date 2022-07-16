@@ -11,8 +11,9 @@ const Hooks = () => {
   return (
     <div>
       <p> Idade: {idade}</p>
-      <button onClick ={changeAge}> Mudar idade</button>
-
+      <button onClick={changeAge}> Mudar idade</button>
     </div>
-  )
+  ); 
 };
+
+export default Hooks;
